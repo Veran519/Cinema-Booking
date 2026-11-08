@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Cinema Booking</title>
+</head>
+<body>
+<div class="app">
+    <section class="dates">
+        <h2>Выберите дату</h2>
+        <div id="dates_list" class="dates_list"></div>
+    </section>
+    <section class="sessions">
+        <h2>Доступные сеансы</h2>
+        <div id="sessions_list" class="sessions_list"></div>
+    </section>
+    <section class="hall_scheme">
+        <h2>Схема зала</h2>
+        <div id="hall_status" class="hall_status"></div>
+        <div id="hall" class="hall_net"></div>
+    </section>
+    <section class="info">
+        <span class="info-item info-free">Свободно</span>
+        <span class="info-item info-taken">Занято</span>
+        <span class="info-item info-archive">Архив</span>
+    </section>
+</div>
+
+<script src="js/utils.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/graphic.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
